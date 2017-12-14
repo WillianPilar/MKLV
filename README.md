@@ -17,7 +17,13 @@ nos diretórios necessários
 
 2.Dialog
 =====================================================
-                Para Remover
+                     Para Logar
+=====================================================
+1. usuário: admin
+     senha: admin
+Obs: você poderá criar outros usuários
+=====================================================  
+              Para Remover
 =====================================================
 1. É necessário estar logado como root
 
