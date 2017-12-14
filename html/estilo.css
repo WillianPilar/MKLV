@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background: url("https://theme.fm/wp-content/uploads/2016/11/fig-21-11-2016_12-38-45.jpg");
+	backgrouns-size: 100vw 100vh;
+	
+}
+
+
+
+#btn-menu{
+
+	display: none;
+
+}
+
+
+
+header{
+
+	background-color: #990000; 
+
+	font-weight: 600px;
+
+}
+
+
+
+header label{
+
+	color: #efefef;
+
+	font-size: 20px;
+
+	display: black;
+
+	padding: 5px 10px;
+
+	width: 20px;
+
+	border-right: 1px solid #efefef;
+
+	display: none;
+
+}
+
+
+
+header label:hover{
+
+	background-color: #ff5900;
+
+}
+
+
+
+.menu ul{
+
+	list-style: none;
+
+	margin: 0;
+
+	padding: 0;
+
+	display: flex;
+
+	transition: all .5s;        
+
+}
+
+
+
+.menu li a{
+
+	color: #efefef;
+
+	text-decoration: none;
+
+	padding: 15px 20px;
+
+	display: block;
+
+	border-right: 1px solid #efefef;
+
+}
+
+
+
+.menu li a:hover{
+
+	background-color: #ff5900;
+
+}
+
+
+
+@media(max-width: 768px){
+
+
+
+	header label{
+
+		display: block;
+
+	            }
+
+	#vava{
+		border: 1px solid #efefef;
+	}
+
+	#veve{
+		border-bottom: 1px solid #efefef;
+	}
+	
+
+	.menu ul{
+
+		position: absolute;
+
+		background-color: #990000;
+
+		width: 70%;
+
+		flex-direction: column;
+
+		margin-left: -70%;
+
+	}
+
+
+
+	.menu li a{
+
+		border-top: 1px solid #efefef;
+
+	}
+
+
+
+	#btn-menu:checked ~ .menu ul{
+
+		margin-left: 0;
+
+	}
+
+

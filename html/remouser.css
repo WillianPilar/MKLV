@@ -1,0 +1,112 @@
+body{
+
+        background: url("https://theme.fm/wp-content/uploads/2016/11/fig-21-11-2016_12-38-45.jpg");
+
+        background-repeat: no-repeat;
+
+        background-size: 100vw 100vh;
+
+}
+
+
+
+.container{
+
+        width: 500px;
+
+        height: 400px;
+
+        margin:200px auto;
+
+        background: rgba(0, 0, 0, 0.7);
+
+        border-radius: 15px;
+
+        text-align: center;
+
+}
+
+
+
+.container img{
+
+        width: 120px;
+
+        height: 120px;
+
+        margin-top: -60px;
+
+        margin-bottom: 30px;
+
+}
+
+
+
+input[type="text"],input[type="password"]{
+	width: 240px;
+
+        height: 44px;
+
+        margin-bottom: 20px;
+
+        font-size: 18px;
+
+        border: 1px solid #000;
+
+        padding-left: 45px;
+
+}
+
+
+
+input[type="submit"]{
+
+        padding: 15px 25px;
+
+        background: #840303;
+         
+	color: #000;
+
+        border: none;
+
+        margin-bottom: 20px;
+
+        cursor: pointer;
+
+}
+
+
+
+a{
+
+        text-decoration: none;
+
+        color: #fff;
+
+}
+
+
+
+a:hover{
+ color: #fff;
+
+}
+
+.cust{
+
+        position: absolute;
+
+        background: #fff;
+
+        margin-right: 18px;
+
+        margin-top: 1px;
+
+        width: 44px;
+
+        height: 36px;
+
+        padding-top: 8px;
+
+        border: 1px solid #fff;
+}

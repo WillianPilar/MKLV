@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+    background-image: url("https://theme.fm/wp-content/uploads/2016/11/fig-21-11-2016_12-38-45.jpg");
+}
+
+.formulario{
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	box-shadow: 0 0 20px 1px rgba(155, 12, 15, 0.5);
+	position: relative;
+    background: rgba(0, 0, 0,0.9);
+    color: white;
+}
+
+.formulario__titulo{
+	text-align: center;
+	margin-top: 0;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.formulario__input, .formulario__label,
+.formulario__submit{
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+}
+
+.formulario__input{
+	padding: 20px;
+	background: rgba(15, 15, 15, 0.7);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	margin-bottom: 40px;
+    color: white;
+}
+
+.formulario__input:focus{
+	outline: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.formulario__input:focus + .formulario__label{
+	margin-top: -135px;
+}
+
+.formulario__label{
+	padding-left: 15px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color: rgba(255, 255, 255, 0.9);
+	transition: all 0.2s;
+}
+
+.formulario__submit{
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+}
+
+.fijar{
+	margin-top: -135px;
+}
+
+.bottom{
+    text-decoration: none;
+    color: white;
+    background: black;
+    border: 2px solid darkred;
+    padding: 2px;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.bottom:hover{
+    font-size: 20px;
+}

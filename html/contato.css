@@ -1,0 +1,61 @@
+body{
+  background-image: url("https://theme.fm/wp-content/uploads/2016/11/fig-21-11-2016_12-38-45.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0; 
+  font-family: monospace;
+}
+
+form{
+  width: 458px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+h2{
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#bottom{
+  background: rgba(127, 0, 0, 0.7);
+  color: #FFF;
+  padding: 20px;
+}
+
+#bottom:hover{
+  cursor: pointer;
+}
+
+@media(max-width: 480px){
+  form{
+    width: 100%;  
+  }
+}
+
+#linkado{
+  text-decoration: none;
+  color: #FFF;
+}

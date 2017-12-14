@@ -1,0 +1,4 @@
+iniciar
+iniciar
+parar
+iniciar

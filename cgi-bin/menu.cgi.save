@@ -1,0 +1,109 @@
+#!/bin/bash
+cat <<ANAL
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>Monitoramento</title>
+
+	<style>
+		body{
+  2 
+  3         margin: 0;
+  4 
+  5         font-family: sans-serif;
+  6 
+  7 }
+  8 
+  9 
+ 10 
+ 11 #btn-menu{
+ 12 
+ 13         display: none;
+ 14 
+ 15 }
+ 16 
+ 17 
+ 18 
+ 19 header{
+ 20 
+ 21         background-color: #990000;
+ 22 
+ 23         font-weight: 600px;
+ 24 
+ 25 }
+ 26 
+ 27 
+ 28 
+ 29 header label{
+ 30 
+ 31         color: #efefef;
+ 32 
+ 33         font-size: 20px;
+ 34 
+ 35         display: black;
+ 36 
+ 37         padding: 5px 10px;
+ 38 
+ 39         width: 20px;
+ 40 
+ 41         border-right: 1px solid #efefef;
+ 42 
+ 43         display: none;
+ 44 
+ 45 }
+ 46 
+ 47 
+ 48 
+ 49 header label:hover{
+ 50 
+ 51         background-color: #ff5900;
+ 52 
+ 53 }
+ 54 
+ 55 
+ 56 
+ 57 .menu ul{
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+
+		<input type="checkbox" id="btn-menu">
+
+		<label for="btn-menu">&#9776;</label>
+
+		<nav class="menu">
+
+			<ul>
+
+				<li><a href="#">Início</a></li> 
+
+				<li><a href="verificando.cgi">Monitoramento Total</a></li> 
+
+				<li><a href="#">Monitorar IP</a></li>
+
+				<li><a href="#">Sair da Conta</a></li>
+
+			</ul> 
+
+		</nav>
+
+	</header>
+
+	<img src="https://uploaddeimagens.com.br/images/001/184/122/original/M%281%29.png?1511433429" />
+
+</body>
+
+</html>
+ANAL
+ORAL
+KARAIO
+VSF=Vai ser feliz
